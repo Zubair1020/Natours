@@ -1,0 +1,11 @@
+@mixin animate($animationSide) {
+  animation: $animationSide 1s ease;
+}
+
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

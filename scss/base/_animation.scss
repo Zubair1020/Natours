@@ -1,0 +1,40 @@
+@keyframes letterSpacing {
+  0% {
+    opacity: 0;
+    letter-spacing: 8rem;
+  }
+  100% {
+    opacity: 1;
+    letter-spacing: 3.5rem;
+  }
+}
+@keyframes moveInFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(8rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes moveInFromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(5rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes movePolygon {
+  0% {
+    background-position: left;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  100% {
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  }
+}
